@@ -90,5 +90,5 @@ def matrixMultiScal(matrix1,num):
 		for j in range(len(matrix1[0])):
 			matrix2[i][j]=matrix1[i][j]*num
 	return matrix2
-def sksycrpr(matrix1):
+def sksycrpr(matrix1):#Skew Symmetric Matrix
 	return [[0,-matrix1[2],matrix1[1]],[matrix1[2],0,-matrix1[0]],[-matrix1[1],matrix1[0],0]]

@@ -1,0 +1,79 @@
+-rw-rw-r--   1 root         admin    24580 Dec 19 08:04 .DS_Store
+-rw-r--r--   1 root         wheel        0 Jul 15 13:35 .localized
+drwxr-xr-x   2 samanguiano  admin       64 Dec 29  2016 .minecraft\mods
+drwxr-xr-x   2 samanguiano  admin       64 Dec 29  2016 .minecraft\resourcepacks
+drwxrwxr-x   6 root         admin      192 Feb 28  2017 Adobe
+drwxr-xr-x   5 root         admin      160 Oct 30 18:06 Adobe Creative Cloud
+drwxrwxr-x@  7 root         admin      224 Feb 12  2016 Adobe Extension Manager CS6
+drwxrwxr-x@ 11 root         admin      352 Feb 28  2017 Adobe Fireworks CS6
+drwxrwxr-x@ 15 root         admin      480 Jul 29 10:44 Adobe Illustrator CC 2017
+drwxrwxr-x@ 11 root         admin      352 Jul 29 10:44 Adobe Photoshop CC 2017
+drwxr-xr-x@  3 root         wheel       96 Aug 15 16:42 App Store.app
+drwxr-xr-x@  3 root         wheel       96 Aug 10 15:50 Automator.app
+drwxrwxrwx   3 samanguiano  staff       96 Dec 15 19:28 Battle.net.app
+drwxr-xr-x   3 root         wheel       96 Jul 30  2015 BlueStacks.app
+drwxr-xr-x   3 root         wheel       96 Nov 28  2015 Brother
+drwxr-xr-x@  3 root         wheel       96 Jul 15 17:35 Calculator.app
+drwxr-xr-x@  3 root         wheel       96 Aug  2 21:43 Calendar.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 18:56 Chess.app
+drwxr-xr-x@  3 root         wheel       96 Sep 29 20:10 Contacts.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 17:04 DVD Player.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 15:55 Dashboard.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 17:56 Dictionary.app
+drwxr-xr-x@  3 root         wheel       96 Sep 20 18:51 FaceTime.app
+drwxr-xr-x@  3 samanguiano  staff       96 Apr 12  2016 Feed The Beast.app
+drwxrwxr-x@  3 samanguiano  admin       96 Sep  6 10:26 Firefox.app
+drwxr-xr-x@  3 root         wheel       96 Jul 16 16:28 Font Book.app
+drwxr-xr-x@  3 samanguiano  staff       96 Oct 13 06:48 GitHub Desktop.app
+drwxrwxr-x@  3 samanguiano  admin       96 Dec  5 12:10 Google Chrome.app
+drwxr-xr-x@  3 samanguiano  staff       96 Nov 10 10:49 Google Drive.app
+drwxr-xr-x   3 root         wheel       96 Aug 23 18:04 Google Earth Pro.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 17:23 Image Capture.app
+drwxr-xr-x@  3 samanguiano  admin       96 Aug  6 16:36 Inkscape.app
+drwxr-xr-x@ 21 samanguiano  admin      672 Mar 31  2016 KSP_osx
+drwxr-xr-x   3 root         wheel       96 Nov 12 15:13 Keynote.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 15:55 Launchpad.app
+drwxr-xr-x   4 samanguiano  staff      128 Jan  7  2016 MCEdit.app
+drwxr-xr-x   3 root         wheel       96 Sep 23 18:26 MachineProfile.app
+drwxr-xr-x@  3 root         wheel       96 Sep 29 19:11 Mail.app
+drwxr-xr-x@  3 root         wheel       96 Sep 27 16:32 Maps.app
+drwxr-xr-x@  3 root         wheel       96 Oct 13 18:26 Messages.app
+drwxr-xr-x@  3 samanguiano  admin       96 Sep 16  2015 Minecraft.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 15:55 Mission Control.app
+drwxr-xr-x@  3 samanguiano  staff       96 Nov 10  2012 NBTExplorer.app
+drwxrwxr-x   4 root         wheel      128 May 14  2017 NetBeans
+drwxr-xr-x@  3 root         wheel       96 Aug  1 01:39 Notes.app
+drwxr-xr-x   3 root         wheel       96 Nov 12 15:15 Numbers.app
+drwxrwxrwx@  3 samanguiano  admin       96 Nov  2 07:56 Origin.app
+drwxr-xr-x   3 root         wheel       96 Nov 12 15:14 Pages.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 18:50 Photo Booth.app
+drwxr-xr-x@  3 root         wheel       96 Oct  2 16:55 Photos.app
+drwxr-xr-x   3 samanguiano  staff       96 Apr 10  2016 Portal 2.app
+drwxr-xr-x@  3 root         wheel       96 Sep 25 16:28 Preview.app
+drwxrwxr-x@  6 root         admin      192 Feb 28  2017 Project Felix
+drwxr-xr-x@ 10 root         wheel      320 Oct  4 11:29 Python 3.6
+drwxr-xr-x@  3 root         wheel       96 Oct  4 20:43 QuickTime Player.app
+drwxr-xr-x@  3 root         wheel       96 Jul 26 21:27 Reminders.app
+drwxr-xr-x@  3 samanguiano  admin       96 Apr  8  2017 Roblox.app
+drwxr-xr-x   3 samanguiano  admin       96 Mar  3  2017 RobloxStudio.app
+drwxr-xr-x@  3 root         wheel       96 Oct  5 18:39 Safari.app
+drwxr-xr-x   3 samanguiano  staff       96 Mar 29  2016 Sid Meier's Civilization V.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 15:55 Siri.app
+drwxr-xr-x   3 samanguiano  admin       96 Aug 23  2016 Steam.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 16:41 Stickies.app
+drwxrwxrwx   3 samanguiano  admin       96 Jan 20  2015 Sublime Text.app
+drwxr-xr-x@  3 root         wheel       96 Jul 23 12:37 System Preferences.app
+-rwxr--r--@  1 samanguiano  admin  4667748 Apr  2  2017 TechnicLauncher.jar
+drwxr-xr-x   3 samanguiano  staff       96 Mar 20  2016 Terraria.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 16:41 TextEdit.app
+drwxr-xr-x@  3 root         wheel       96 Jul 15 15:55 Time Machine.app
+drwxrwxr-x  11 root         admin      352 Jan 26  2016 Unity
+drwxr-xr-x+ 29 root         admin      928 Dec 12 15:38 Utilities
+drwxr-xr-x   3 root         admin       96 Dec 12 11:09 VirtualBox.app
+drwxr-xr-x   4 samanguiano  admin      128 Jul 13 15:25 WOWAddons
+drwxrwxrwx  16 samanguiano  admin      512 Dec 17 15:52 World of Warcraft
+drwxr-xr-x   3 root         wheel       96 Nov  2 23:18 Xcode.app
+drwxr-xr-x   3 samanguiano  staff       96 Mar  3  2017 coconutBattery.app
+drwxr-xr-x@  3 root         wheel       96 Oct  2 15:38 iBooks.app
+drwxr-xr-x@  3 root         wheel       96 Dec  7 17:41 iTunes.app
+-rw-r--r--   1 samanguiano  admin     4163 Dec 29  2016 polycraft-1.4.4.1-installer.jar.log

@@ -1,0 +1,72 @@
+from tkinter import *
+import simpleaudio as sa
+import wave
+
+loadingScreen=0
+timePassed=0
+screenPhase=0
+turn=0
+wave_file = wave.open("SBURB.wav","rb")
+wave_obj = sa.WaveObject.from_wave_read(wave_file)
+count=0
+
+root=Tk()
+
+newFiles=[PhotoImage(file="SBURBTerminal.gif",format="gif -index 1"),PhotoImage(file="SBURBTerminal.gif",format="gif -index 2"),PhotoImage(file="SBURBTerminal.gif",format="gif -index 3"),PhotoImage(file="SBURBTerminal.gif",format="gif -index 4"),PhotoImage(file="SBURBTerminal.gif",format="gif -index 5")]
+
+root.geometry("1000x611")
+
+def displayVid():
+ global count
+ global canvas
+ if(count<1215):
+  if(count%25==0):
+   print("passed")
+  vidFrame=PhotoImage(file="loading/"+str(count)+".ppm")
+  canvas.create_image(-150,-10,anchor="nw",image=vidFrame)
+  count+=1
+  root.after(40,displayVid)
+def keydown(e):
+ global wave_obj
+ global loadingScreen
+ loadingScreen=1
+ play_obj=wave_obj.play()
+ displayVid()
+def displayImages():
+ global loadingScreen
+ global timePassed
+ global screenPhase
+ global canvas
+ global turn
+ if(not loadingScreen):
+  timePassed+=1
+  if(timePassed==33 and screenPhase==0):
+   canvas.create_image(0,0,anchor="nw",image=newFiles[0])
+   print("round 1")
+  elif(timePassed==49 and screenPhase==0):
+   canvas.create_image(0,0,anchor="nw",image=newFiles[1])
+   timePassed=0
+   screenPhase=1
+   print("round 2")
+  elif(turn==0 and timePassed==50 and screenPhase==1):
+   canvas.create_image(0,0,anchor="nw",image=newFiles[2])
+   timePassed=0
+   turn=1
+   print("round 3")
+  elif(turn==1 and timePassed==50 and screenPhase==1):
+   canvas.create_image(0,0,anchor="nw",image=newFiles[3])
+   timePassed=0
+   turn=0
+   print("round 4")
+  root.after(10,displayImages)
+# else:
+#  timePassed+=1
+
+canvas=Canvas(root,width=1000,height=611,bg="blue")
+filename=PhotoImage(file="SBURBTerminal.gif",format="gif -index 0")
+image=canvas.create_image(0,0,anchor="nw",image=filename)
+canvas.bind("<KeyPress>", keydown)
+canvas.pack()
+canvas.focus_set()
+root.after(10,displayImages)
+root.mainloop()

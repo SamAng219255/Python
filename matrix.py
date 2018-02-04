@@ -1,4 +1,5 @@
 from copy import copy, deepcopy
+from math import acos
 def matrixDet(matRiX):
 	matriX=deepcopy(matRiX)
 	matLength=len(matriX)
@@ -90,5 +91,32 @@ def matrixMultiScal(matrix1,num):
 		for j in range(len(matrix1[0])):
 			matrix2[i][j]=matrix1[i][j]*num
 	return matrix2
-def sksycrpr(matrix1):#Skew Symmetric Matrix
+def sksycrpr(matrix1):
 	return [[0,-matrix1[2],matrix1[1]],[matrix1[2],0,-matrix1[0]],[-matrix1[1],matrix1[0],0]]
+def cross(*args):
+	a=[0]*(len(args)+1)
+	mat=[[0]*(len(args)+1) for i in range(len(args)+1)]
+	for i in range(1,len(args)+1):
+		for j in range(len(args)+1):
+			mat[i][j]=args[i-1][j];
+	for i in range(len(args)+1):
+		a[i]=matrixDet(findMinorMat(0,i,mat))*(1-2*(i%2))
+	return a
+def dot(v1,v2):
+	total=0;
+	for i in range(len(v1)):
+		total+=v1[i]*v2[i];
+	return total;
+def norm(v):
+	total=0
+	for i in v:
+		total+=i**2
+	return total**0.5
+def vecangle(u,v):
+	return acos(dot(u,v)/(norm(u)*norm(v)))
+def unitVec(v):
+	m=norm(v)
+	V=[0]*len(v)
+	for i in range(len(v)):
+		V[i]=v[i]/m
+	return V

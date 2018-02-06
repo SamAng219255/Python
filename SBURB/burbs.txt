@@ -1,6 +1,3 @@
 [Server] Hello! Sorry gtg for a sec and do something.
 [Info] Server Player is now AFK.
-[Client] Alright, just come back soon.
-[Info] Client Player is now AFK.
-[Info] Client Player is no longer AFK.
 [Info] Client Player is now AFK.

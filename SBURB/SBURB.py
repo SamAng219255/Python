@@ -37,7 +37,7 @@ def displayVid():
   imgtk = ImageTk.PhotoImage(image=img)
   label.imgtk = imgtk
   label.configure(image=imgtk)
-  label.after(24, displayVid)
+  label.after(17, displayVid)
  else:
   root.destroy()
 def keydown(e):
